@@ -1,0 +1,166 @@
+
+h1{
+	text-align: center;
+	position: relative;
+	top: 70px;
+	font-weight: bold;
+	font-size: 45px;
+
+}
+body{
+	background-color: ivory;
+}
+.first {
+	
+	position: relative;
+	top: 120px;
+	left: 90px;
+	height: 150px;
+	width: 290px;
+	background-color: LightGray;
+	padding-left: 10px; 
+	padding-right: 10px;
+	border-width: thick;
+	border-color: Black;
+	border: thick;
+    border-style: solid;
+    border-width: 3px;
+		
+}
+.second{
+	position:relative;
+	top: -40px;
+    left: 540px;
+	height: 150px;
+	width: 290px;
+	background-color: LightGray;
+	padding-left: 10px; 
+    padding-right: 10px;
+
+    border: thick;
+    border-style: solid;
+    border-width: 3px;
+
+}
+.third{
+	position: relative;
+	
+	top: -200px;
+	left: 1010px;
+	height: 150px;
+	width: 290px;
+	background-color: LightGray;
+	padding-left: 10px; 
+	padding-right: 10px;
+	border: thick;
+    border-style: solid;
+    border-width: 3px;
+
+}
+.first span{
+	
+	position: relative;
+	left: 200px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: red;
+	border: thick;
+	border-style: solid;
+	border-width: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+
+
+}
+.second span{
+	
+	position: relative;
+	left: 182px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: ForestGreen;
+	border: thick;
+	border-style: solid;
+	border-width: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+
+
+}
+.third span{
+	
+	position: relative;
+	left: 173px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: Orange;
+	border: thick;
+	border-style: solid;
+	border-width: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+
+
+}
+p{
+	position: relative;
+	top: -10px;
+}
+@media(min-width: 768px) and (max-width: 992px)
+{
+	.first{
+		width: 300px;
+		left: 20px;
+	}
+	.second{
+		width: 300px;
+		left: 400px;
+	}
+	.third{
+		width: 650px;
+		top: 30px;
+		left: 30px;
+		height: 140px;
+	}
+	.third span{
+		left: 532px;
+	}
+	.second span {
+		left: 193px;
+	}
+	.first span{
+		left: 212px;
+
+	}
+}
+@media(max-width: 767px){
+	.first{
+		width: 600px;
+		left: 20px;
+	}
+	.second{
+		width: 600px;
+		left: 20px;
+		top: 160px;
+	}
+	.third{
+		width: 600px;
+		top: 200px;
+		left: 20px;
+		height: 140px;
+	}
+	.third span{
+		left: 483px;
+	}
+	.second span {
+		left: 493px;
+	}
+	.first span{
+		left: 512px;
+
+	}
+
+}
