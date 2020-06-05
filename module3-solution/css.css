@@ -1,0 +1,26 @@
+.navbar-brand{
+	font-size: 40px;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+.text-center{
+	position: relative;
+	top: 70px;
+}
+.navbar-header{
+	height: 70px;
+	
+}
+#main-content{
+	
+	background-color: Gray;
+	padding-top: 10px;
+
+}
+h1{
+	text-align: center;
+}
+.col-xs-12{
+	position: relative;
+	top: 100px;
+}
